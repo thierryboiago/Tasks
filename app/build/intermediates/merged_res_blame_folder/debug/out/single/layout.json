@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.devmasterteam.tasks.app-mergeDebugResources-49:/layout/fragment_next_tasks.xml",
+        "source": "com.devmasterteam.tasks.app-main-52:/layout/fragment_next_tasks.xml"
+    },
+    {
+        "merged": "com.devmasterteam.tasks.app-mergeDebugResources-49:/layout/activity_login.xml",
+        "source": "com.devmasterteam.tasks.app-main-52:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.devmasterteam.tasks.app-mergeDebugResources-49:/layout/activity_main.xml",
+        "source": "com.devmasterteam.tasks.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.devmasterteam.tasks.app-mergeDebugResources-49:/layout/app_bar_main.xml",
+        "source": "com.devmasterteam.tasks.app-main-52:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.devmasterteam.tasks.app-mergeDebugResources-49:/layout/row_task_list.xml",
+        "source": "com.devmasterteam.tasks.app-main-52:/layout/row_task_list.xml"
+    },
+    {
+        "merged": "com.devmasterteam.tasks.app-mergeDebugResources-49:/layout/activity_register.xml",
+        "source": "com.devmasterteam.tasks.app-main-52:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.devmasterteam.tasks.app-mergeDebugResources-49:/layout/activity_task_form.xml",
+        "source": "com.devmasterteam.tasks.app-main-52:/layout/activity_task_form.xml"
+    },
+    {
+        "merged": "com.devmasterteam.tasks.app-mergeDebugResources-49:/layout/nav_header_main.xml",
+        "source": "com.devmasterteam.tasks.app-main-52:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.devmasterteam.tasks.app-mergeDebugResources-49:/layout/content_main.xml",
+        "source": "com.devmasterteam.tasks.app-main-52:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.devmasterteam.tasks.app-mergeDebugResources-49:/layout/fragment_expired_tasks.xml",
+        "source": "com.devmasterteam.tasks.app-main-52:/layout/fragment_expired_tasks.xml"
+    },
+    {
+        "merged": "com.devmasterteam.tasks.app-mergeDebugResources-49:/layout/fragment_all_tasks.xml",
+        "source": "com.devmasterteam.tasks.app-main-52:/layout/fragment_all_tasks.xml"
+    }
+]
