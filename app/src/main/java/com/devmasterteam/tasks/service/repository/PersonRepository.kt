@@ -15,6 +15,7 @@ import retrofit2.Response
 class PersonRepository(val context: Context) {
 
     val remote = RetrofitClient.getService(PersonService::class.java)
+
     fun login(email: String, password: String, listener: APIListener<PersonModel>) {
         val call = remote.login(email, password)
         call.enqueue(object : Callback<PersonModel> {
