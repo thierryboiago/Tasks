@@ -25,6 +25,8 @@ class AllTasksFragment : Fragment() {
 
     private val adapter = TaskAdapter()
 
+    private var taskFilter = 0
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, b: Bundle?): View {
         viewModel = ViewModelProvider(this).get(TaskListViewModel::class.java)
         _binding = FragmentAllTasksBinding.inflate(inflater, container, false)
@@ -32,6 +34,8 @@ class AllTasksFragment : Fragment() {
 
         binding.recyclerAllTasks.layoutManager = LinearLayoutManager(context)
         binding.recyclerAllTasks.adapter = adapter
+
+        taskFilter = requireArguments().getInt(TaskConstants.BUNDLE.TASKFILTER, 0)
 
         val listener = object : TaskListener {
             override fun onListClick(id: Int) {
@@ -69,7 +73,7 @@ class AllTasksFragment : Fragment() {
 
     override fun onResume() {
         super.onResume()
-        viewModel.list()
+        viewModel.list(taskFilter)
     }
 
     override fun onDestroyView() {

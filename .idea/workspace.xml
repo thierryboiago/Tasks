@@ -9,13 +9,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c32eb5a4-8094-4a3f-8825-f8b3a8e3433f" name="Changes" comment="load and edit task">
+    <list default="true" id="c32eb5a4-8094-4a3f-8825-f8b3a8e3433f" name="Changes" comment="verify internet connection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/BaseRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/BaseRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/PersonRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/PersonRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/PriorityRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/PriorityRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/TaskRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/TaskRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/AllTasksFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/AllTasksFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/viewmodel/TaskListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/viewmodel/TaskListViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702666665126</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="verify internet connection">
+      <created>1702668249470</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702668249470</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +226,7 @@
     <MESSAGE value="code refactoring" />
     <MESSAGE value="update task" />
     <MESSAGE value="load and edit task" />
-    <option name="LAST_COMMIT_MESSAGE" value="load and edit task" />
+    <MESSAGE value="verify internet connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="verify internet connection" />
   </component>
 </project>
