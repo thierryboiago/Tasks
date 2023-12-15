@@ -39,7 +39,7 @@ class LoginViewModel(application: Application) : AndroidViewModel(application) {
                 securityPreferences.store(TaskConstants.SHARED.TOKEN_KEY, result.token)
                 securityPreferences.store(TaskConstants.SHARED.PERSON_NAME, result.name)
 
-                addHeaders(result.token, result.personKey)
+                RetrofitClient.addHeaders(result.token, result.personKey)
                 _login.value = ValidationModel()
             }
 
