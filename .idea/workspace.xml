@@ -9,13 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c32eb5a4-8094-4a3f-8825-f8b3a8e3433f" name="Changes" comment="logout">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/PersonRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/PersonRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/LoginActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/RegisterActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/RegisterActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/viewmodel/LoginViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/viewmodel/LoginViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/viewmodel/RegisterViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/viewmodel/RegisterViewModel.kt" afterDir="false" />
+    <list default="true" id="c32eb5a4-8094-4a3f-8825-f8b3a8e3433f" name="Changes" comment="create user">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/viewmodel/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/viewmodel/MainViewModel.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702669945034</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="create user">
+      <created>1702670737793</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702670737793</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +249,7 @@
     <MESSAGE value="verify internet connection" />
     <MESSAGE value="filter" />
     <MESSAGE value="logout" />
-    <option name="LAST_COMMIT_MESSAGE" value="logout" />
+    <MESSAGE value="create user" />
+    <option name="LAST_COMMIT_MESSAGE" value="create user" />
   </component>
 </project>
