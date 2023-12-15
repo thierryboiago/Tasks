@@ -9,18 +9,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c32eb5a4-8094-4a3f-8825-f8b3a8e3433f" name="Changes" comment="insert task">
+    <list default="true" id="c32eb5a4-8094-4a3f-8825-f8b3a8e3433f" name="Changes" comment="list and remove">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/model/TaskModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/model/TaskModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/BaseRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/BaseRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/PersonRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/PersonRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/PriorityRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/PriorityRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/TaskRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/TaskRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/local/PriorityDAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/local/PriorityDAO.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/AllTasksFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/AllTasksFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/ExpiredTasksFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/ExpiredTasksFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/NextTasksFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/NextTasksFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/adapter/TaskAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/adapter/TaskAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/viewholder/TaskViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/viewholder/TaskViewHolder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/viewmodel/TaskListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/viewmodel/TaskListViewModel.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702653166388</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="list and remove">
+      <created>1702661532602</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702661532602</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +195,7 @@
     <MESSAGE value="verify logged" />
     <MESSAGE value="add priority" />
     <MESSAGE value="insert task" />
-    <option name="LAST_COMMIT_MESSAGE" value="insert task" />
+    <MESSAGE value="list and remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="list and remove" />
   </component>
 </project>
