@@ -7,7 +7,7 @@ class TaskModel {
     var id: Int = 0
 
     @SerializedName("priorityId")
-    var priorityId : Int = 0;
+    var priorityId: Int = 0;
 
     @SerializedName("description")
     var description: String = ""
@@ -17,4 +17,6 @@ class TaskModel {
 
     @SerializedName("Complete")
     var complete: Boolean = false
+
+    var priorityDescription: String = ""
 }
