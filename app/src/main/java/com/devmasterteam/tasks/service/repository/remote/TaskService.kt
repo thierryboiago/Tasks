@@ -48,7 +48,7 @@ interface TaskService {
 
     @PUT("Task/Complete")
     @FormUrlEncoded
-    fun update(
+    fun complete(
         @Field("Id") id: Int
     ): Call<Boolean>
 
