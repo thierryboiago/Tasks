@@ -9,15 +9,18 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c32eb5a4-8094-4a3f-8825-f8b3a8e3433f" name="Changes" comment="verify logged">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/PriorityRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/local/PriorityDAO.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/remote/PriorityService.kt" afterDir="false" />
+    <list default="true" id="c32eb5a4-8094-4a3f-8825-f8b3a8e3433f" name="Changes" comment="add priority">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/BaseRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/TaskRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/remote/TaskService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/model/PriorityModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/model/PriorityModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/model/TaskModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/model/TaskModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/PersonRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/PersonRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/local/TaskDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/local/TaskDatabase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/viewmodel/LoginViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/viewmodel/LoginViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/PriorityRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/service/repository/PriorityRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/TaskFormActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/view/TaskFormActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/viewmodel/TaskFormViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devmasterteam/tasks/viewmodel/TaskFormViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_task_form.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_task_form.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +64,11 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Thierry/AndroidStudioProjects/Tasks&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.devmasterteam.tasks.service.repository.remote" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="Tasks.app.main" />
@@ -151,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702572757727</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add priority">
+      <created>1702581677763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702581677763</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +185,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="login" />
     <MESSAGE value="verify logged" />
-    <option name="LAST_COMMIT_MESSAGE" value="verify logged" />
+    <MESSAGE value="add priority" />
+    <option name="LAST_COMMIT_MESSAGE" value="add priority" />
   </component>
 </project>
